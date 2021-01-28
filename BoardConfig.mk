@@ -130,3 +130,13 @@ TW_NO_SCREEN_BLANK := true
 TWRP_INCLUDE_LOGCAT := true
 # TWRP Debug Flags
 TARGET_USES_LOGD := true
+
+#SHRP specific Build Flags
+SHRP_DEVICE_CODE := phoenix
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := hraj9258
+SHRP_REC_TYPE := SAR
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_NOTCH := true
